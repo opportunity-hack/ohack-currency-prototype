@@ -1,0 +1,20 @@
+{
+  "name": "sepolia-to-boba",
+  "version": "1.2.0",
+  "description": "Transfer test tokens from Seplia ETH newtwork (L1) to BOBA network (L2). This is to practice simulating what we could do to move custom token to another network for cheaper fees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jasmine Obas",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^5.1.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
